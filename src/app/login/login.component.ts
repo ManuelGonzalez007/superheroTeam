@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
       this.router.navigate(['/home']);
     } else {
       this.toastr.toastrConfig.preventDuplicates = true;
-      this.toastr.error('Mail o contraseña incorrectos', 'Error', { timeOut: 2000 })
+      this.toastr.error('Email: challenge@alkemy.org / Pass: angular', 'Error', { timeOut: 2000 })
 
     }
   }
